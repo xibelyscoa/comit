@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Twitter</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="tw.ico">
+    <style>
+        .bgcolor {
+            background-color: #1DA1F2;
+        }
+        
+        .container{
+            width: 900px;
+            padding-left: 60px;
+            padding-right: 40px;
+            background-color: #FFFFFF;
+        }
+        .subtitulo {
+            padding-top: 20px;
+            padding-left: 20px;
+            font-weight: 900;
+        }
+        .img-responsive {
+            padding-left: 100px;
+        }      
+        .paddin {
+            padding-top: 40px;       
+        }
+        .paddin-tw {
+            padding-left:40px; 
+        }
+        .form-horizontal {
+            padding: 60px 60px 60px 40px;
+        }
+        .help {
+            padding-left: 230px;
+        }
+        
+
+    </style>
+</head>
+<body class="bgcolor">
+    <header class="tw-bgcolor">
+        <div class="row">
+            <div class="col-lg-4">
+                <img class="img-responsive" src="twitter.png"/>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 ">
+                <h2 class="subtitulo">Únete a la conversación</h2>
+            </div>
+            <div class="col-lg-4 paddin">
+                ¿Ya estas en twitter?<a href="#">Inicia sesión</a>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="paddin-tw">¿Ya tienes twitter en tu telefóno? <a href="#">Finaliza tu registro ahora</a></p>
+                </div>
+            </div>
+        </div>
+        <form class="form-horizontal" role="form">
+            <div class="input-group col-lg-12">
+                <label for="inputEmail3" class="col-lg-4 control-label">Nombre completo</label>
+                <div class="input-group col-lg-8">
+                    <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon2">
+                    <span class="input-group-addon " id="basic-addon2">De acuerdo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                </div>
+                    <div class="help-block help">Yor full name will appear on your public profile.</div>
+            </div>
+            <div class="input-group col-lg-12">
+                <label for="inputEmail3" class="col-lg-4 control-label">Nombre de usuario</label>
+                <div class="input-group col-lg-8">
+                    <input type="text" class="form-control" placeholder="Tu_nombre_aca" aria-describedby="basic-addon2">
+                    <span class="input-group-addon" id="basic-addon2">De acuerdo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                </div>
+                    <div class="help-block help">Yor full name will appear on your public profile.</div>
+            </div>
+            <div class="input-group col-lg-12">
+                <label for="inputEmail3" class="col-lg-4 control-label">Contraseña</label>
+                <div class="input-group col-lg-8">
+                    <input type="password" class="form-control" aria-describedby="basic-addon2">
+                    <span class="input-group-addon " id="basic-addon2">Muy seguro;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                </div>
+            </div><br/>
+            <div class="input-group col-lg-12">
+                <label for="inputEmail3" class="col-lg-4 control-label">Correo electrónico</label>
+                <div class="input-group col-lg-8">
+                    <input type="text" class="form-control" placeholder="Correo electrónico" aria-describedby="basic-addon2">
+                    <span class="input-group-addon" id="basic-addon2">De acuerdo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                </div>
+                    <div class="help-block help">Yor full name will appear on your public profile.</div>
+            </div>
+            <div class="help">
+                <div class="input-group col-lg-12">
+                    <div class="checkbox">
+                        <input type="checkbox" checked="checked" /> Deja que otros me encuentren por correo electrónico
+                        <div class="help-group block">Yor full name will appear on your public profile.</div>
+                    </div>
+                </div>
+            </div><br/>
+            <div class="input-group col-lg-12">
+                <label for="inputEmail3" class="col-lg-4 control-label">Condiciones y términos generales</label>
+                <div class="input-group col-lg-8">
+                    <textarea class="form-control" aria-readonly="true" rows="3">Los terminos generales estipulan el uso y condiciones de los servicios de usos generales de twitter </textarea>
+                </div><br/>
+            </div>
+            <div class="row">
+                <div class="col-lg12 help">
+                    Al pulsar en "crear mi cuenta" estás aceptando los <a href="#">Términos y condiciones del servicio</a>listados arriba, y tambien la <a href="#">Política de privacidad
+                </div><br/>
+            </div>
+            <div class="help">
+                <div class="input-group col-lg-12">
+                    <button type="button" class="btn btn-primary">Crear mi cuenta</button>
+                    <div class="checkbox">
+                        <input type="checkbox" value="" checked="checked" /> ¡Deseo recibir exclusivas novedades por correo electrónico! 
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Facebook - Inicia sesión o regístrate</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico">
+    <style>
+        .container-fb {
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        .fb-body {
+            padding-left: 150px;
+            padding-right: 150px;
+        }
+        .fb-bgcolor {
+            background-color: #365899;
+            margin-bottom: 15px;
+            padding-bottom: 5px;
+            color: #fff;
+        }
+
+        .fb-bgcolor-lighten {
+            background-color: #e9ebee;
+            color: #1d2129;
+        }
+
+        .fb-logo {
+            font-size: 38px;
+            margin-top: 30px;
+            margin-left: 60px;
+            font-weight: 900;
+        }
+
+        .fb-bgcolor-h2 {
+            font-size: 35px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .fb-conditions {
+            font-size: 10px;
+            color: #777;
+        }
+
+        .mini-bt {
+            margin-top: 25px;
+        }
+
+        .fb-remember {
+            color: #9cb4d8;
+            font-size: 11px;
+            margin-left: 200px;
+            margin-top: 10px;
+        }
+
+        .mini-form {
+            height: 20px;
+            border-color: #365899;
+            border-radius: 0%;
+        }
+
+        .mini-form-box {
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        .fb-form-box {
+            padding-left: 6px;
+            padding-right: 6px;
+        }
+
+        .mini-label {
+            padding-left: 5px;
+            padding-right: 5px;
+            font-size: 12px;
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body class="fb-bgcolor-lighten">
+    <header class="row fb-bgcolor">
+        <div class="container-fb">
+            <div class="row">
+                <div class="col-lg-7">
+                    <h1 class="fb-logo">facebook</h1>
+                </div>
+                <div class="col-lg-5">
+                    <form>
+                        <div class="form-group input-group-xs">
+                            <div class="col-lg-5 mini-form-box">
+                                <label class="control-label mini-label" for="_correo">Correo electrónico o teléfono</label>
+                                <input type="text" class="form-control mini-form" id="_correo" placeholder="">
+                            </div>
+                        </div>
+                        <div class="form-group input-group-xs">
+                            <div class="col-lg-5 mini-form-box">
+                                <label class="control-label mini-label" for="_pass">Contraseña</label>
+                                <input type="text" class="form-control mini-form" id="_pass" placeholder="">
+                            </div>
+                        </div>
+                        <div class="col-lg-2 mini-bt">
+                            <button type="submit" class="btn btn-primary btn-xs">Iniciar sesión</button>
+                        </div>
+                    </form>
+                    <a class="fb-remember">¿Olvidaste tu cuenta?</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="row">
+        <div class="fb-body">
+            <div class="col-md-6">
+                <h3 class="fb-bgcolor-h2 ">Inicios de sesión recientes</h3>
+                <h4>Haz clic en tu foto para iniciar sesión.</h4>
+                <img src="perfil.jpg" alt="foto de perfil" class="img-thumbnail">
+            </div>
+            <div class="col-md-6">
+                <h3 class="fb-bgcolor-h2">Crea una cuenta</h3>
+                <h4>Es gratis y lo será siempre.</h4>
+                <br>
+                <form class="row">
+                    <div class="form-group col-lg-6">
+                        <input type="text" class="form-control" placeholder="Nombre">
+                    </div>
+                    <div class="form-group col-lg-6">
+                        <input type="text" class="form-control" placeholder="Apellido">
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <input type="text" class="form-control" placeholder="Correo electrónico o teléfono">
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <input type="text" class="form-control" placeholder="Contraseña">
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <label>Fecha de nacimiento</label>
+                    </div>
+                    <div class="form-group col-lg-12 fb-form-box">
+                        <div class="form-group col-lg-2 mini-form-box">
+                            <select class="form-control ">
+                                <option>01</option>
+                                <option>02</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-lg-2 mini-form-box">
+                            <select class="form-control">
+                                <option>01</option>
+                                <option>02</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-lg-3 mini-form-box">
+                            <select class="form-control">
+                                <option>1987</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-lg-5">
+                            <a href="#">¿Por qué tengo que proporcionar mi fecha de nacimiento?</a>
+                        </div>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <label class="radio-inline input-lg">
+                            <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Mujer
+                        </label>
+                        <label class="radio-inline input-lg">
+                            <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Hombre
+                        </label>
+                    </div>
+                    <div class="col-lg-8">
+                        <p class="fb-conditions">Al hacer clic en "Crear cuenta", aceptas las <a href="#">Condiciones</a> y confirmas que leíste nuestra
+                            <a href="#">Política de datos</a>, incluido el <a href="#">uso de cookies</a>. Es posible que
+                            recibas notificaciones por SMS de Facebook, que puedes desactivar en cualquier momento.</p>
+                    </div>
+                    <div class="col-lg-12">
+                        <button type="submit" class="btn btn-success btn-lg">Iniciar sesión</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="row fb-bgcolor-lighten">
+            <div class="col-md-6"></div>
+            <div class="col-md-6"></div>
+        </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"crossorigin="anonymous"></script>
+</body>
+
+</html>

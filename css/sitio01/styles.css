@@ -1,0 +1,108 @@
+header {
+    border-bottom: 0.5px solid #ccc;
+}
+h1 {
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.container {
+    width: 1000px;
+    background-color:white;
+    position: absolute;
+}
+
+#titulo {
+    padding-top: 30px;
+}
+
+.subtitulo {
+    font-size: 30px;
+    color: #444;
+    font-weight: bold
+}
+.enlace {
+    font-size: 15px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: #444;
+}
+.registro {
+    padding-top: 20px;
+    text-align: right;
+   
+}
+.green {
+     color: green;
+}
+.grey {
+    color: #444;
+}
+.nav-uno {
+    padding-top: 20px;
+    background-attachment: fixed;
+}
+a {
+    text-decoration: none;
+    font-size: 18px;
+}
+.mas {
+    font-size: 20px;
+    text-align: right;
+    color: #808080;
+}
+.img-uno {
+    width: 1000px;
+    height: 300px;
+    padding-top: 20px;
+}
+.perfil {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.perfil-info { 
+    position: relative;
+    padding-top: 40px;
+    padding-left: 60px;
+    color: #808080;
+}
+.perfil-info > a {
+    font-size: 12px;
+}
+ .cuerpo {
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.cuerpo >a {
+    color: #696969;
+}
+.texto {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding-top: 40px;
+    padding-left: 5px;
+    padding-right: 20px;
+}
+.seccion {
+    padding: 0px;
+    margin-top: 20px;
+    background-color: #f8f8ff;
+}
+.img-dos {
+    padding: 30px 20px 30px 20px;
+    width: 250px;
+    height: 250px;
+}
+footer a {
+    color: #a9a9a9;
+    text-align: justify;
+}
+ul {
+    list-style-type: none;
+}
